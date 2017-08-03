@@ -5,15 +5,19 @@
 ;
 ; ------    x86   ------
 ; nasm -f elf helloworld.asm
-; ld -s -o helloworld helloworld.asm
+; ld -s -o helloworld helloworld.o
 ;
 ; ------  x86_64  ------
 ; nasm -f elf64 helloworld.asm
-; ld -s -o helloworld helloworld.asm
+; ld -s -o helloworld helloworld.o
 ;
 ; ------ COMPILER ------
 ; ./compiler.sh helloworld
 ; ./compiler.sh helloworld.asm helloworld
+;
+; --    Always x86   ---
+; nasm -f elf helloworld.asm
+; ld -m elf_i386 -s -o helloworld helloworld.o
 ;
 ;    _________________
 ;  //                 \\
