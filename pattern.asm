@@ -26,7 +26,7 @@
 ;
 ;  Show a String pattern
 ;
-; LEVEL:    02
+; LEVEL:    01
 ; ASM:      NASM
 ; ENVS:     Linux
 ; AUTHOR:   CosasDePuma

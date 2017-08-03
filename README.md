@@ -16,10 +16,13 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 :video_game: Levels
 ----
-| NASM | |
-| ---- | ---- |
-| 00 | HelloWorld |
-| 01 | Nice2Meet |
+
+**NASM**
+
+| Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- |
+| 00 | HelloWorld | 01 | Pattern |
+| 02 | Nice2Meet |
 
 :page_with_curl: License
 ----

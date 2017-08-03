@@ -27,7 +27,7 @@
 ; Nice2Meet is an improved
 ; "Hello World!"
 ;
-; LEVEL:    01
+; LEVEL:    02
 ; ASM:      NASM
 ; ENVS:     Linux
 ; AUTHOR:   CosasDePuma
