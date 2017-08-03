@@ -3,13 +3,17 @@
 ; || HOW TO COMPILE IT ||
 ;  \\_________________//
 ;
-; -------   x86  -------
+; ------    x86   ------
 ; nasm -f elf nice2meet.asm
 ; ld -s -o nice2meet nice2meet.asm
 ;
-; ------- x86_64 -------
+; ------  x86_64  ------
 ; nasm -f elf64 nice2meet.asm
 ; ld -s -o nice2meet nice2meet.asm
+;
+; ------ COMPILER ------
+; ./compiler.sh nice2meet
+; ./compiler.sh nice2meet.asm nice2meet
 ;
 ;    _________________
 ;  //                 \\

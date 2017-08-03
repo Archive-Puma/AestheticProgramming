@@ -3,13 +3,17 @@
 ; || HOW TO COMPILE IT ||
 ;  \\_________________//
 ;
-; -------   x86  -------
+; ------    x86   ------
 ; nasm -f elf helloworld.asm
 ; ld -s -o helloworld helloworld.asm
 ;
-; ------- x86_64 -------
+; ------  x86_64  ------
 ; nasm -f elf64 helloworld.asm
 ; ld -s -o helloworld helloworld.asm
+;
+; ------ COMPILER ------
+; ./compiler.sh helloworld
+; ./compiler.sh helloworld.asm helloworld
 ;
 ;    _________________
 ;  //                 \\
