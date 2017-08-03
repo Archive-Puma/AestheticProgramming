@@ -41,7 +41,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 :video_game: Levels
 ----
-***WARNING:*** I only tested my Assembly programs in Linux Enviroments!
+[WARNING] I only tested my Assembly programs in Linux Enviroments!
 
 
 **NASM**
