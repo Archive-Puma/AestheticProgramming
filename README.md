@@ -14,14 +14,6 @@ git clone https://github.com/cosasdepuma/aesthetic-programming.git && cd aesthet
 
 Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need more information.
 
-:busts_in_silhouette: Members
-----
-
-| Name | Position | Contact |
-| ------ | ------ | ------ |
-| Kike Puma | Creator & Developer | [LinkedIn](https://linkedin.com/in/kikepuma) |
-
-
 :page_with_curl: License
 ----
 
