@@ -19,11 +19,11 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 **NASM**
 
-| Lvl | Name | Lvl | Name |
-| ---- | ---- | ---- | ---- |
-| 00 | HelloWorld | 01 | Pattern |
-| 02 | Nice2Meet | 03 | Family |
-| 04 | Calculator |  |  |
+| Lvl | Name | Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 00 | HelloWorld | 01 | Pattern | 02 | Nice2Meet |
+| 03 | Calculator | 04 | Even    | 05 | Family |
+
 
 :page_with_curl: License
 ----
