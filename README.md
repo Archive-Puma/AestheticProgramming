@@ -22,7 +22,8 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- |
 | 00 | HelloWorld | 01 | Pattern |
-| 02 | Nice2Meet |
+| 02 | Nice2Meet | 03 | Family |
+| 04 | Calculator |  |  |
 
 :page_with_curl: License
 ----
