@@ -30,9 +30,9 @@ section .data                           ; CONSTANTS
     message_l: equ $-message            ; message lenght
 
 section .text                           ; CODE
-    global _main                        ; set _main as main function
+    global _start                       ; set _start as main function
 
-_main:
+_start:                                 ; define _start function
 ; PRINT message
     mov eax, 4                          ; WRITE: EAX=4
     mov ebx, 1                          ; WRITE: EBX=1
