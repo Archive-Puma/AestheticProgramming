@@ -9,17 +9,15 @@ Clone or download the Github project
 git clone https://github.com/cosasdepuma/aesthetic-programming.git && cd aesthetic-programming/
 ```
 
-&nbsp;
-
 Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need more information.
 
-### Members
+###  :busts_in_silhouette: Members
 
 | Name | Position | Contact |
 | ------ | ------ | ------ |
 | Kike Puma | Creator & Developer | [LinkedIn](https://linkedin.com/in/kikepuma) |
 
 
-License
+:hammer: License
 ----
 ![LICENSE](https://img.shields.io/github/license/CosasDePuma/Aesthetic-Programming.svg?style=flat-square)
