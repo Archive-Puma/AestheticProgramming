@@ -33,30 +33,30 @@
 ; AUTHOR:   CosasDePuma
 ; DATE:     August, 3rd 2017
 
-section .data
-    name:   db 'Arya Stark',0xA
-    name_l: equ $-name
+section .data                   ; CONSTANTS
+    name:   db 'Arya Stark',0xA ; name to display
+    name_l: equ $-name          ; lenght of the name
 
-section .text
-    global _start
+section .text                   ; CODE
+    global _start               ; set _start as main function
 
-_start:
+_start:                         ; define _start function
 ; PRINT Arya's name
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, name
-    mov edx, name_l
-    int 80h
+    mov eax, 4                  ; sys_write
+    mov ebx, 1                  ; stdout
+    mov ecx, name               ; text to show
+    mov edx, name_l             ; lenght of text
+    int 80h                     ; call kernel
 
-; CHANGE the name using indirect addresses
-    mov [name], DWORD 'John'
+; CHANGE the name
+    mov [name], DWORD 'John'    ; change name using indirect addresses
 
 ; PRINT John's name
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, name
-    mov edx, name_l
-    int 80h
+    mov eax, 4                  ; sys_write
+    mov ebx, 1                  ; stdout
+    mov ecx, name               ; text to show
+    mov edx, name_l             ; lenght of text
+    int 80h                     ; call kernel
 
 ; EXIT the program
     mov eax, 1
