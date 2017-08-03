@@ -12,10 +12,37 @@ Clone or download the Github project
 git clone https://github.com/cosasdepuma/aesthetic-programming.git && cd aesthetic-programming/
 ```
 
+All programs are commented and with a header similar to this one explaining how to compile them
+```asm
+;    _________________
+;  //                 \\
+; || HOW TO COMPILE IT ||
+;  \\_________________//
+;
+; ------    x86   ------
+; nasm -f elf program.asm
+; ld -s -o program program.o
+;
+; ------  x86_64  ------
+; nasm -f elf64 program.asm
+; ld -s -o program program.o
+;
+; ------ COMPILER ------
+; ./compiler.sh program
+; ./compiler.sh program.asm program
+;
+; --    Always x86   ---
+; nasm -f elf program.asm
+; ld -m elf_i386 -s -o program program.o
+```
+
+All the programs 
 Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need more information.
 
 :video_game: Levels
 ----
+***WARNING:*** I only tested my Assembly programs in Linux Enviroments!
+
 
 **NASM**
 
