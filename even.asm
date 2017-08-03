@@ -41,10 +41,10 @@ SYS_WRITE   equ 4
 CALL_KERNEL equ 80h
 
 section .data                           ; CONSTANTS
-    msg1:   db 'Write a digit: '       ; first message
+    msg1:   db 'Write a digit: '        ; first message
     msg1_l: equ $-msg1                  ; lenght of the first message
 
-    even:   db 'The digit is EVEN',10  ; message when it's is even
+    even:   db 'The digit is EVEN',10   ; message when it's is even
     even_l: equ $-even                  ; lenght of even message
 
     odd:    db 'The digit is ODD',10   ; message when it's is odd
@@ -53,7 +53,7 @@ section .data                           ; CONSTANTS
     chcker: db 1                        ; digit one checks if it's even or odd
 
 section .bss                            ; VARIABLES
-    digit: resb 2                    ; input digit
+    digit: resb 2                       ; input digit
 
 section .text                           ; CODE
     global _start                       ; set _start as main function
