@@ -2,6 +2,8 @@
  <img src="https://cdn.rawgit.com/CosasDePuma/Aesthetic-Programming/384ffa5a/.img/logo.jpg" alt="Aesthetic-Programming" width="480" height="320">
 </h1>
 
+&nbsp;
+
 :floppy_disk: Clone me!
 ----
 
@@ -20,7 +22,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | Kike Puma | Creator & Developer | [LinkedIn](https://linkedin.com/in/kikepuma) |
 
 
-:hammer: License
+:page_with_curl: License
 ----
 
 ![LICENSE](https://img.shields.io/github/license/CosasDePuma/Aesthetic-Programming.svg?style=flat-square)
