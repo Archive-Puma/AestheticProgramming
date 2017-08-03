@@ -40,6 +40,8 @@ SYS_READ    equ 3
 SYS_WRITE   equ 4
 CALL_KERNEL equ 80h
 
+INPUT_L     equ 2
+
 section .data                           ; CONSTANTS
     msg1:   db 'Enter a number: '       ; first message
     msg1_l: equ $-msg1                  ; lengh of first message
@@ -50,10 +52,12 @@ section .data                           ; CONSTANTS
     msg3:   db 'The sum is: '           ; third message
     msg3_l: equ $-msg3                  ; lenght of third
 
+    br:     db 0xA,0                    ; End of line
+
 section .bss                            ; VARIABLES
-    nmbr1:  resb 1                      ; first input number
-    nmbr2:  resb 1                      ; second input number
-    result: resb 1                      ; result
+    nmbr1:  resb INPUT_L                ; first input number
+    nmbr2:  resb INPUT_L                ; second input number
+    result: resb INPUT_L                ; result
 
 section .text                           ; CODE
     global _start                       ; set _start as main function
@@ -70,7 +74,7 @@ _start:                                 ; define _start function
     mov eax, SYS_READ
     mov ebx, STDIN
     mov ecx, nmbr1
-    mov edx, 1
+    mov edx, INPUT_L
     int CALL_KERNEL
 
 ; PRINT the second message
@@ -84,7 +88,7 @@ _start:                                 ; define _start function
     mov eax, SYS_READ
     mov ebx, STDIN
     mov ecx, nmbr2
-    mov edx, 1
+    mov edx, INPUT_L
     int CALL_KERNEL
 
 ; SUM the numbers
@@ -107,7 +111,14 @@ _start:                                 ; define _start function
     mov eax, SYS_WRITE
     mov ebx, STDOUT
     mov ecx, result
-    mov edx, 1
+    mov edx, INPUT_L
+    int CALL_KERNEL
+
+; PRINT the end of line
+    mov eax, SYS_WRITE
+    mov ebx, STDOUT
+    mov ecx, br
+    mov edx, INPUT_L
     int CALL_KERNEL
 
 ; EXIT the program
