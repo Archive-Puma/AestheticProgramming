@@ -24,6 +24,13 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | 00 | HelloWorld | 01 | Pattern | 02 | Nice2Meet |
 | 03 | Calculator | 04 | Even    | 05 | Family |
 
+:notebook: Docs
+----
+If you are interested in learning Assembly Code, here I leave the tutorials that served me to start in the language.
+
+| Author | Name |
+| ---- | ---- |
+| [TutorialsPoint](http://www.tutorialspoint.com/) | [Assembly Language Tutorial](http://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf) | 
 
 :page_with_curl: License
 ----
