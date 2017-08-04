@@ -50,6 +50,12 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | 00 | HelloWorld | 01 | Pattern | 02 | Nice2Meet |
 | 03 | Calculator | 04 | Even    | 05 | Family |
 
+**NASM 64-bit**
+
+| Lvl | Name | Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 00 | HelloWorld64 |  |  |  |  |
+
 **NASM - Hacking**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
@@ -67,8 +73,9 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 
 | About | Author | Name |
 | ---- | ---- | ---- |
-| NASM | [TutorialsPoint](http://www.tutorialspoint.com/) | [Assembly Language Tutorial](http://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf) |
-| NASM | [TutorialsPoint](http://www.tutorialspoint.com/) | [Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/index.htm) |
+| NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Assembly Language Tutorial](http://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf) |
+| NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/index.htm) |
+| NASM 64-bit | [0xAX](https://github.com/0xAX/) | [asm (Learning assembly for linux-x64)](https://github.com/0xAX/asm) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
 
 :page_with_curl: License
