@@ -43,7 +43,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 [WARNING] I only tested my Assembly programs in Linux Enviroments!
 
 
-**NASM**
+**NASM 32-bit**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |

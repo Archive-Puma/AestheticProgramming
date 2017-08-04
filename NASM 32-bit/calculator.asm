@@ -28,7 +28,7 @@
 ; with labels and constants
 ;
 ; LEVEL:    03
-; ASM:      NASM
+; ASM:      NASM 32-bit
 ; ENVS:     Linux
 ; AUTHOR:   CosasDePuma
 ; DATE:     August, 3rd 2017

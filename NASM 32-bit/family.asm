@@ -28,7 +28,7 @@
 ;  with similar surnames
 ;
 ; LEVEL:    05
-; ASM:      NASM
+; ASM:      NASM 32-bit
 ; ENVS:     Linux
 ; AUTHOR:   CosasDePuma
 ; DATE:     August, 3rd 2017

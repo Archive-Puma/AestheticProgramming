@@ -28,7 +28,7 @@
 ;    even or odd digit
 ;
 ; LEVEL:    04
-; ASM:      NASM
+; ASM:      NASM 32-bit
 ; ENVS:     Linux
 ; AUTHOR:   CosasDePuma
 ; DATE:     August, 3rd 2017
