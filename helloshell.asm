@@ -1,3 +1,45 @@
+;    _________________
+;  //                 \\
+; || HOW TO COMPILE IT ||
+;  \\_________________//
+;
+; -------- x86 ---------
+; nasm -f elf helloshell.asm
+; ld -s -o helloshell helloshell.asm
+;
+; ------- x86_64 -------
+; nasm -f elf64 helloshell.asm
+; ld -s -o helloshell helloshell.asm
+;
+; ------ COMPILER ------
+; ./compiler.sh helloshell
+; ./compiler.sh helloshell.asm helloshell
+;
+; ----- Always x86 -----
+; nasm -f elf helloshell.asm
+; ld -m elf_i386 -s -o helloshell helloshell.o
+;
+;    _________________
+;  //                 \\
+; ||   DUMP HEX CODE   ||
+;  \\_________________//
+;
+; ------ ObjDump ------
+; objdump -d ./helloshell
+;    _________________
+;  //                 \\
+; ||    DESCRIPTION    ||
+;  \\_________________//
+;
+;      Print messages
+;  without null characters
+;
+; LEVEL:    01
+; ASM:      NASM
+; ENVS:     Linux (Hacking)
+; AUTHOR:   CosasDePuma
+; DATE:     August, 4rd 2017
+
 [SECTION .text]                 ; CODE
 global _start                   ; set _start as main function
 
