@@ -54,7 +54,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | ExitCall |  |  |  |  |
+| 00 | ExitCall | 01 | HelloShell |  |  |
 
 NASM should be installed on your computer. If you are a Linux user, try the following command:
 ```sh
