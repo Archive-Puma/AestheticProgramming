@@ -9,7 +9,7 @@
 
 Clone or download the Github project
 ```git
-git clone https://github.com/cosasdepuma/aesthetic-programming.git && cd aesthetic-programming/
+git clone https://github.com/cosasdepuma/aestheticprogramming.git aesthetic-programming && cd aesthetic-programming/
 ```
 
 All programs are commented and with a header similar to this one explaining how to compile them
@@ -34,6 +34,7 @@ All programs are commented and with a header similar to this one explaining how 
 ; --    Always x86   ---
 ; nasm -f elf program.asm
 ; ld -m elf_i386 -s -o program program.o
+;
 ```
 
 Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need more information.
@@ -73,14 +74,14 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 
 | About | Author | Name |
 | ---- | ---- | ---- |
+| GAS | [0xAX](https://0xax.github.io/) | [Say hello to x86_64 Assembly](https://0xax.github.io/asm_6/) |
 | NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Assembly Language Tutorial](http://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf) |
 | NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/index.htm) |
 | NASM 64-bit | [0xAX](https://github.com/0xAX/) | [asm (Learning assembly for linux-x64)](https://github.com/0xAX/asm) |
 | NASM and C | [StackOverflow](https://stackoverflow.com/) | [Linking C with NASM](https://stackoverflow.com/questions/24991944/linking-c-with-nasm) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
-| GAS | [0xAX](https://0xax.github.io/) | [Say hello to x86_64 Assembly](https://0xax.github.io/asm_6/) |
 
 :page_with_curl: License
 ----
 
-![LICENSE](https://img.shields.io/github/license/CosasDePuma/Aesthetic-Programming.svg?style=flat-square)
+![LICENSE](https://img.shields.io/github/license/CosasDePuma/AestheticProgramming.svg?style=flat-square)
