@@ -34,7 +34,6 @@ All programs are commented and with a header similar to this one explaining how 
 ; --    Always x86   ---
 ; nasm -f elf program.asm
 ; ld -m elf_i386 -s -o program program.o
-;
 ```
 
 You can use online compilers like [this](https://www.tutorialspoint.com/compile_assembly_online.php)
@@ -43,7 +42,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 :video_game: Levels
 ----
-[WARNING] I only tested my Assembly programs in Linux Enviroments!
+[WARNING] I only tested my Assembly programs in Linux Enviroments and Online Compilers!
 
 
 **NASM 32-bit**
@@ -57,7 +56,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | HelloWorld64 |  |  |  |  |
+| 00 | HelloWorld64 | 01 | Macros |  |  |
 
 **NASM - Hacking**
 
