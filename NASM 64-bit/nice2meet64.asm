@@ -4,8 +4,8 @@
 ;  \\_________________//
 ;
 ; ------  x86_64  ------
-; nasm -f elf64 macros.asm
-; ld -s -o macros macros.o
+; nasm -f elf64 nice2meet64.asm
+; ld -s -o nice2meet64 nice2meet64.o
 ;
 ;    _________________
 ;  //                 \\
