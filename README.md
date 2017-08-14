@@ -65,6 +65,12 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 00 | ExitCall | 01 | HelloShell |  |  |
 
+**Reverse Engineering**
+
+| Lvl | Name | Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 00 | License |  |  |  |  |
+
 NASM should be installed on your computer. If you are a Linux user, try the following command:
 ```sh
 sudo apt install nasm
@@ -82,6 +88,7 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 | NASM 64-bit | [0xAX](https://github.com/0xAX/) | [asm (Learning assembly for linux-x64)](https://github.com/0xAX/asm) |
 | NASM and C | [StackOverflow](https://stackoverflow.com/) | [Linking C with NASM](https://stackoverflow.com/questions/24991944/linking-c-with-nasm) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
+| Reverse Engineering | [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/featured) | [LiveOverflow Binary Hacking](http://liveoverflow.com/binary_hacking/index.html) |
 
 :page_with_curl: License
 ----
