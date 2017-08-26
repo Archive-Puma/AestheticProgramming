@@ -1,0 +1,13 @@
+La primera vez tras iniciar el programa:
+Puma
+50756D61
+
+La segunda vez tras iniciar el programa:
+Puma
+50756D6150756D61
+
+La tercera vez:
+Puma
+50756D6150756D6150756D61
+
+Y así sucesivamente
