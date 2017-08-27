@@ -1,0 +1,9 @@
+La clave es la fecha en el siguiente formato
+
+MesAñoDia-HoraMinutos
+
+Ejemplos:
+---------
+
+26, Agosto 2017 20:17 >>> 8201726-2017
+01, Enero  2011 04:04 >>> 120171-44 
