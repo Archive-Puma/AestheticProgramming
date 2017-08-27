@@ -69,7 +69,8 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | License |  |  |  |  |
+| 00 | License | 01 | EasyLicense | 02 | LenLicense |
+| 03 | AntiDebugger |  |  |  |  |
 
 NASM should be installed on your computer. If you are a Linux user, try the following command:
 ```sh
