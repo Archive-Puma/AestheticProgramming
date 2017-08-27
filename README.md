@@ -69,7 +69,8 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | License |  |  |  |  |
+| 00 | License | 01 | EasyLicense | 02 | LenLicense |
+| 03 | AntiDebugger |  |  |  |  |
 
 NASM should be installed on your computer. If you are a Linux user, try the following command:
 ```sh
@@ -78,7 +79,7 @@ sudo apt install nasm
 
 You can also download a preconfigured VM created by me with all the tools:
 
-[![Download WinHack7](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/winhack7/files/latest/download)
+[![Download DisassWin](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/winhack7/files/latest/download)
 
 :notebook: Docs
 ----
