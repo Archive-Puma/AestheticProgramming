@@ -1,0 +1,21 @@
+[ STEP BY STEP ]
+
+0x00 - Write program in NASM and save it with .asm extension
+0x01 - Compile the code using:   nasm -f elf program.asm
+0x02 - Create the binary using:  ld -o program.elf program.o
+0x03 - Remove the compiled file: rm program.o
+
+0x04 - Test the program:         ./program.elf
+
+0x05 - Get the shellcode with the shellcode_bundle/short_shellcoder.sh
+    shellcoder.sh program.elf | tee shellcode.txt
+
+0x06 - Copy the shellcode_bundle/exeshellcode.c with the program's name
+0x07 - Cat and copy the the shellcode into program.c code
+0x08 - Compile the program.c file using gcc:
+    gcc -o program program.c
+
+0x09 - Test the shellcoded program: ./program
+
+0x0A - Smile when everything runs OK!
+
