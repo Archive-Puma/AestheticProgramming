@@ -5,19 +5,11 @@
 ;
 ; -------- x86 ---------
 ; nasm -f elf exitcall.asm
-; ld -s -o exitcall exitcall.asm
-;
-; ------- x86_64 -------
-; nasm -f elf64 exitcall.asm
-; ld -s -o exitcall exitcall.asm
-;
-; ------ COMPILER ------
-; ./compiler.sh exitcall
-; ./compiler.sh exitcall.asm exitcall
+; ld -s -o exitcall.elf exitcall.asm
 ;
 ; ----- Always x86 -----
 ; nasm -f elf exitcall.asm
-; ld -m elf_i386 -s -o exitcall exitcall.o
+; ld -m elf_i386 -s -o exitcall.elf exitcall.o
 ;
 ;    _________________
 ;  //                 \\
@@ -25,7 +17,7 @@
 ;  \\_________________//
 ;
 ; ------ ObjDump ------
-; objdump -d ./exitcall
+; objdump -d ./exitcall.elf
 ;
 ;    _________________
 ;  //                 \\
@@ -39,10 +31,18 @@
 ; ASM:      NASM
 ; ENVS:     Linux (Hacking)
 ; AUTHOR:   CosasDePuma
-; DATE:     August, 4rd 2017
+; DATE:     August, 28th 2017
+;
+;    _________________
+;  //                 \\
+; ||     SHELLCODE    ||
+;  \\_________________//
+;
+; "\x31\xc0\x31\xdb\xb0\x01\xcd\x80"
 
-SYS_EXIT    equ 1
-EXIT_CODE   equ 0
+[BITS 32]
+
+sys_exit equ 1
 
 [SECTION .text]
 global _start
@@ -63,16 +63,18 @@ _start:
     ;
     ; ... but the next one avoids null characters
 
-    mov al, 1
+    xor eax, eax
     xor ebx, ebx
+    mov al,  sys_exit
     int 80h
 
     ; Here is the hex code ...
     ;
     ; 08048060 <.text>:
-    ;  8048060:       b0 01                   mov    $0x1,%al
-    ;  8048062:       31 db                   xor    %ebx,%ebx
-    ;  8048064:       cd 80                   int    $0x80
+    ;  8048060:       31 c0                   xor    %eax,%eax
+    ;  8048062:       31 db                	  xor    %ebx,%ebx
+    ;  8048064:	      b0 01                	  mov    $0x1,%al
+    ;  8048066:	      cd 80                	  int    $0x80
     ;
     ; ... without null chars!
 
