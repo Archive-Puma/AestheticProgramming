@@ -63,7 +63,8 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | ExitCall | 01 | HelloShell |  |  |
+| 00 | ExitCall | 01 | StackMsg | 02 | SpawnShell |
+| 03 | GetPrivs |  |  |  |  |
 
 **Reverse Engineering**
 
