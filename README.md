@@ -49,29 +49,29 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | HelloWorld | 01 | Pattern | 02 | Nice2Meet |
-| 03 | Calculator | 04 | Even    | 05 | Family |
+| 0x00 | HelloWorld | 0x01 | Pattern | 0x02 | Nice2Meet |
+| 0x03 | Calculator | 0x04 | Even    | 0x05 | Family |
 
 **NASM 64-bit**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | HelloWorld64 | 01 | Macros | 02 | Nice2Meet64 |
-| 03 | If Else | 04 | Meaning | 05 | Params |
+| 0x00 | HelloWorld64 | 0x01 | Macros | 0x02 | Nice2Meet64 |
+| 0x03 | If Else | 0x04 | Meaning | 0x05 | Params |
 
 **NASM - Hacking**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | ExitCall | 01 | StackMsg | 02 | SpawnShell |
-| 03 | GetPrivs |  |  |  |  |
+| 0x00 | ExitCall | 0x01 | StackMsg | 0x02 | SpawnShell |
+| 0x03 | GetPrivs |  |  |  |  |
 
 **Reverse Engineering**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 00 | License | 01 | EasyLicense | 02 | LenLicense |
-| 03 | AntiDebugger |  |  |  |  |
+| 0x00 | License | 0x01 | EasyLicense | 0x02 | LenLicense |
+| 0x03 | AntiDebugger |  |  |  |  |
 
 NASM should be installed on your computer. If you are a Linux user, try the following command:
 ```sh
