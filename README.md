@@ -1,4 +1,4 @@
-<h1 align="center">
+﻿<h1 align="center">
  <img src="https://cdn.rawgit.com/CosasDePuma/Aesthetic-Programming/384ffa5a/.img/logo.jpg" alt="Aesthetic-Programming" width="480" height="320">
 </h1>
 
@@ -65,6 +65,10 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0x00 | ExitCall | 0x01 | StackMsg | 0x02 | SpawnShell |
 | 0x03 | GetPrivs |  |  |  |  |
+
+| Lvl | Name | Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 0x00 | Stack0 | 0x01 | Stack1 | 0x02 | Stack2 |
 
 **Reverse Engineering**
 
