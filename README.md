@@ -97,6 +97,7 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 | NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/index.htm) |
 | NASM 64-bit | [0xAX](https://github.com/0xAX/) | [asm (Learning assembly for linux-x64)](https://github.com/0xAX/asm) |
 | NASM and C | [StackOverflow](https://stackoverflow.com/) | [Linking C with NASM](https://stackoverflow.com/questions/24991944/linking-c-with-nasm) |
+| NASM - Hacking | [Matt Andreko](https://www.mattandreko.com/) | [Exploit-exercises](https://www.mattandreko.com/categories/exploit-exercises/) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
 | Reverse Engineering | [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/featured) | [LiveOverflow Binary Hacking](http://liveoverflow.com/binary_hacking/index.html) |
 | Reverse Engineering | [Raton (elhacker.net)](http://www.elhacker.net/hacking-programas-hack.html) | [Cursillo de Crackeo Básico para Principiantes](https://github.com/CosasDePuma/AestheticProgramming/tree/teachers/Cursillo%20de%20Crackeo%20B%C3%A1sico%20para%20Principiantes%20-%20Raton%20(ElHacker.net))
