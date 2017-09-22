@@ -12,6 +12,6 @@ MOV H, B
 MOV L, C
 MOV M, D
 
-; HLT - Stop the program
+; HLT (76) - Stop the program
 
 HLT
