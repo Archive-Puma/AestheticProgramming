@@ -44,12 +44,13 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 ----
 [WARNING] I only tested my Assembly programs in Linux Enviroments and Online Compilers!
 
-** 8085 **
+**8085**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0x01 | Move | 0x02 | Basic Operations | 0x03 | Load and Store|
-| 0x04 | Flags |  |  |  |  |
+| 0x04 | Flags | 0x05 | HL like Memory Address | 0x06 | Loops |
+| 0x07 | Pointers |  |  |  |  |
 
 **NASM 32-bit**
 
