@@ -91,7 +91,17 @@ sudo apt install nasm
 
 You can also download a preconfigured VM created by me with all the tools:
 
-[![Download DisassWin](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/winhack7/files/latest/download)
+```
+Windows
+```
+
+[![Download DisassWin](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/disasswin/)
+
+```
+Linux
+```
+
+[![Download DisassWin](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/disasslin/)
 
 :notebook: Docs
 ----
