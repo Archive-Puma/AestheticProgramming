@@ -89,6 +89,8 @@ NASM should be installed on your computer. If you are a Linux user, try the foll
 sudo apt install nasm
 ```
 
+:slot_machine: Virtual Machines
+----
 You can also download a preconfigured VM created by me with all the tools:
 
 ```
