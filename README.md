@@ -1,4 +1,4 @@
-﻿<h1 align="center">
+<h1 align="center">
  <img src="https://cdn.rawgit.com/CosasDePuma/Aesthetic-Programming/384ffa5a/.img/logo.jpg" alt="Aesthetic-Programming" width="480" height="320">
 </h1>
 
@@ -44,13 +44,19 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 ----
 [WARNING] I only tested my Assembly programs in Linux Enviroments and Online Compilers!
 
+** 8085 **
+
+| Lvl | Name | Lvl | Name | Lvl | Name |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 0x01 | Move | 0x02 | Basic Operations | 0x03 | Load and Store|
+| 0x04 | Flags |  |  |  |  |
 
 **NASM 32-bit**
 
 | Lvl | Name | Lvl | Name | Lvl | Name |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0x00 | HelloWorld | 0x01 | Pattern | 0x02 | Nice2Meet |
-| 0x03 | Calculator | 0x04 | Even    | 0x05 | Family |
+| 0x03 | Calculator | 0x04 | Even | 0x05 | Family |
 
 **NASM 64-bit**
 
@@ -92,6 +98,7 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 
 | About | Author | Name |
 | ---- | ---- | ---- |
+| 8085 | [Easy Class For Me](https://www.youtube.com/channel/UCeJd48I1lB2XeB6j8G0Zb_g) | [8085 Microprocessor Programming](https://www.youtube.com/playlist?list=PL_1-_Q4VI1SfM0ZTLx1lnOev8ENC9-RYx)
 | GAS | [0xAX](https://0xax.github.io/) | [Say hello to x86_64 Assembly](https://0xax.github.io/asm_6/) |
 | NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Assembly Language Tutorial](http://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf) |
 | NASM 32-bit | [TutorialsPoint](http://www.tutorialspoint.com/) | [Learn NASM Assembly programming language](https://www.tutorialspoint.com/assembly_programming/index.htm) |
@@ -100,7 +107,7 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 | NASM - Hacking | [Matt Andreko](https://www.mattandreko.com/) | [Exploit-exercises](https://www.mattandreko.com/categories/exploit-exercises/) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
 | Reverse Engineering | [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/featured) | [LiveOverflow Binary Hacking](http://liveoverflow.com/binary_hacking/index.html) |
-| Reverse Engineering | [Raton (elhacker.net)](http://www.elhacker.net/hacking-programas-hack.html) | [Cursillo de Crackeo Básico para Principiantes](https://github.com/CosasDePuma/AestheticProgramming/tree/teachers/Cursillo%20de%20Crackeo%20B%C3%A1sico%20para%20Principiantes%20-%20Raton%20(ElHacker.net))
+| Reverse Engineering | [Raton (elhacker.net)](http://www.elhacker.net/hacking-programas-hack.html) | [Cursillo de Crackeo B�sico para Principiantes](https://github.com/CosasDePuma/AestheticProgramming/tree/teachers/Cursillo%20de%20Crackeo%20B%C3%A1sico%20para%20Principiantes%20-%20Raton%20(ElHacker.net))
 
 :page_with_curl: License
 ----
