@@ -1,0 +1,6 @@
+.ORG 00h E0h
+3Eh FFh 
+32h EFh BEh 
+E6h 00h 
+3Ah EFh BEh 
+76h 
