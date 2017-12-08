@@ -12,7 +12,8 @@ Clone or download the Github project
 git clone https://github.com/cosasdepuma/aestheticprogramming.git aesthetic-programming && cd aesthetic-programming/
 ```
 
-All programs are commented and with a header similar to this one explaining how to compile them
+All NASM programs are commented and with a header similar to this one explaining how to compile them
+
 ```asm
 ;    _________________
 ;  //                 \\
@@ -42,7 +43,9 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 
 :video_game: Levels
 ----
-[WARNING] I only tested my Assembly programs in Linux Enviroments and Online Compilers!
+`WARNING:` I only tested my NASM Assembly programs in Linux Enviroments and Online Compilers!
+
+`WARNING:` 8085 Assembly programs need to be tested in specific simulators.
 
 **8085**
 
@@ -50,7 +53,7 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0x01 | Move | 0x02 | Basic Operations | 0x03 | Load and Store|
 | 0x04 | Flags | 0x05 | HL like Memory Address | 0x06 | Loops |
-| 0x07 | Pointers |  |  |  |  |
+| 0x07 | Pointers | 0x08 | Subrutines |  |  |
 
 **NASM 32-bit**
 
@@ -120,7 +123,7 @@ If you are interested in learning Assembly Code, here I leave the tutorials that
 | NASM - Hacking | [Matt Andreko](https://www.mattandreko.com/) | [Exploit-exercises](https://www.mattandreko.com/categories/exploit-exercises/) |
 | NASM - Hacking | [Ajin Abraham (aka ><302)](www.keralacyberforce.in) | [Shellcode in Linux](https://www.exploit-db.com/docs/21013.pdf) |
 | Reverse Engineering | [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/featured) | [LiveOverflow Binary Hacking](http://liveoverflow.com/binary_hacking/index.html) |
-| Reverse Engineering | [Raton (elhacker.net)](http://www.elhacker.net/hacking-programas-hack.html) | [Cursillo de Crackeo Básico para Principiantes](https://github.com/CosasDePuma/AestheticProgramming/tree/teachers/Cursillo%20de%20Crackeo%20B%C3%A1sico%20para%20Principiantes%20-%20Raton%20(ElHacker.net))
+| Reverse Engineering | [Raton (elhacker.net)](http://www.elhacker.net/hacking-programas-hack.html) | [Cursillo de Crackeo Bï¿½sico para Principiantes](https://github.com/CosasDePuma/AestheticProgramming/tree/teachers/Cursillo%20de%20Crackeo%20B%C3%A1sico%20para%20Principiantes%20-%20Raton%20(ElHacker.net))
 
 :page_with_curl: License
 ----
