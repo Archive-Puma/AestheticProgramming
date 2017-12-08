@@ -1,0 +1,9 @@
+.ORG 00h E0h
+21h EFh BEh 
+0Eh 05h 
+3Eh FFh 
+77h 
+23h 
+0Dh 
+C2h 07h E0h 
+76h 
