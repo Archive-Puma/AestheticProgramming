@@ -11,8 +11,9 @@ CALL VALUES
 ; Stop the program
 HLT
 
+
 ; Locate subrutines in this address
-.org AAAAh
+#org C0DEh
 
 ; Create CLEAR subrutine
 CLEAR:

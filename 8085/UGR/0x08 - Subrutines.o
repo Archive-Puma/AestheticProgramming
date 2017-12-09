@@ -1,8 +1,8 @@
 .ORG 00h E0h
-CDh AAh AAh 
-CDh B5h AAh 
+CDh DEh C0h 
+CDh E9h C0h 
 76h 
-.ORG AAh AAh
+.ORG DEh C0h
 AFh 
 01h 00h 00h 
 11h 00h 00h 
