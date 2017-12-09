@@ -53,7 +53,8 @@ Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need mo
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0x01 | Move | 0x02 | Basic Operations | 0x03 | Load and Store|
 | 0x04 | Flags | 0x05 | HL like Memory Address | 0x06 | Loops |
-| 0x07 | Pointers | 0x08 | Subrutines |  |  |
+| 0x07 | Pointers | 0x08 | Subrutines | 0x09 | Stack |
+| 0x0A | Binary Operations | 0x0B | LEDs |  |  |
 
 **NASM 32-bit**
 
