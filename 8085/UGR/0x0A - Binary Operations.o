@@ -1,0 +1,10 @@
+.ORG 00h E0h
+3Eh EAh
+01h F0h 0Fh
+E6h 8Fh
+A0h
+F6h 44h
+B1h
+EEh FFh
+AFh
+76h 
