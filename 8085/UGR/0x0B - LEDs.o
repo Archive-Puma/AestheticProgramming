@@ -1,0 +1,18 @@
+.ORG 00h E0h
+3Eh AAh 
+CDh DEh C0h 
+CDh E3h C0h 
+C3h 02h E0h 
+.ORG DEh C0h
+EEh FFh 
+D3h 00h 
+C9h 
+C5h 
+06h 4Bh 
+0Eh FFh 
+0Dh 
+C2h E8h C0h 
+05h 
+C2h E6h C0h 
+C1h 
+C9h 
