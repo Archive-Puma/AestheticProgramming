@@ -1,0 +1,6 @@
+.ORG 00h E0h
+DBh 00h 
+4Fh 
+C5h 
+F1h 
+76h 
