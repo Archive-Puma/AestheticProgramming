@@ -1,0 +1,65 @@
+.ORG 00h E0h
+CDh DEh C0h 
+CDh F2h C0h 
+CDh 01h C1h 
+C3h 03h E0h 
+.ORG DEh C0h
+01h 7Ah DAh 
+11h 7Bh DAh 
+21h 7Bh DAh 
+0Ah 
+D3h 07h 
+D3h 06h 
+F6h 80h 
+D3h 05h 
+03h 
+C9h 
+C5h 
+06h 4Bh 
+0Eh FFh 
+0Dh 
+C2h F7h C0h 
+05h 
+C2h F5h C0h 
+C1h 
+C9h 
+0Ah 
+FEh 00h 
+CAh 0Bh C1h 
+D3h 07h 
+03h 
+C9h 
+01h 7Ah DAh 
+0Ah 
+D3h 07h 
+03h 
+1Ah 
+FEh 7Bh 
+CAh 1Ch C1h 
+D3h 06h 
+13h 
+C9h 
+11h 7Ah DAh 
+1Ah 
+D3h 06h 
+13h 
+7Eh 
+FEh 00h 
+CAh 2Fh C1h 
+F6h 80h 
+D3h 05h 
+23h 
+C9h 
+76h 
+.DATA 7Ah DAh
+77h 
+44h 
+3Eh 
+6Eh 
+4Dh 
+6Bh 
+7Bh 
+46h 
+7Fh 
+4Fh 
+00h 
